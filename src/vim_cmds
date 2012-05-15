@@ -1,0 +1,1 @@
+96,137s/void \(.*\)(.*);/void \1 (unsigned int error_code)\r{\rshow_str(p_int,"\1 ocurr");\rnext_line(p_int);\r}/

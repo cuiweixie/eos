@@ -1,0 +1,1091 @@
+	Session.vim	/^cnoremap  <Home>$/;"	m
+	Session.vim	/^cnoremap  <End>$/;"	m
+c	Session.vim	/^nmap c :cs find c =expand("<cword>")$/;"	m
+d	Session.vim	/^nmap d :cs find d =expand("<cword>")$/;"	m
+e	Session.vim	/^nmap e :cs find e =expand("<cword>")$/;"	m
+f	Session.vim	/^nmap f :cs find f =expand("<cfile>")$/;"	m
+g	Session.vim	/^nmap g :cs find g =expand("<cword>")$/;"	m
+i	Session.vim	/^nmap i :cs find i ^=expand("<cfile>")$/;"	m
+s	Session.vim	/^nmap s :cs find s =expand("<cword>")$/;"	m
+t	Session.vim	/^nmap t :cs find t =expand("<cword>")$/;"	m
+	Session.vim	/^map  h$/;"	m
+		Session.vim	/^inoremap <buffer> 	 =CodeComplete()$/;"	m
+		Session.vim	/^inoremap <silent> 	 =TriggerSnippet()$/;"	m
+	Session.vim	/^cnoremap  $/;"	m
+	Session.vim	/^map  k$/;"	m
+	Session.vim	/^map  l$/;"	m
+	Session.vim	/^cmap <silent>  <Plug>CmdlineCompleteForward$/;"	m
+	Session.vim	/^imap  <Plug>SuperTabForward$/;"	m
+	Session.vim	/^cmap <silent>  <Plug>CmdlineCompleteBackward$/;"	m
+	Session.vim	/^imap  <Plug>SuperTabBackward$/;"	m
+		Session.vim	/^inoremap <silent> 	 =ShowAvailableSnips()$/;"	m
+	Session.vim	/^inoremap  :set paste$/;"	m
+	Session.vim	/^map  :BottomExplorerWindow$/;"	m
+	Session.vim	/^map  :FirstExplorerWindow$/;"	m
+	Session.vim	/^map  :WMToggle$/;"	m
+	Session.vim	/^inoremap <expr>  omni#cpp#maycomplete#Complete()$/;"	m
+-	Session.vim	/^nnoremap <buffer> <silent> - :CCTreeRecurseDepthMinus$/;"	m
+=	Session.vim	/^nnoremap <buffer> <silent> = :CCTreeRecurseDepthPlus$/;"	m
+c	Session.vim	/^nmap c :cs find c =expand("<cword>")$/;"	m
+d	Session.vim	/^nmap d :cs find d =expand("<cword>")$/;"	m
+e	Session.vim	/^nmap e :cs find e =expand("<cword>")$/;"	m
+f	Session.vim	/^nmap f :cs find f =expand("<cfile>")$/;"	m
+g	Session.vim	/^nmap g :cs find g =expand("<cword>")$/;"	m
+i	Session.vim	/^nmap i :cs find i ^=expand("<cfile>")$/;"	m
+s	Session.vim	/^nmap s :cs find s =expand("<cword>")$/;"	m
+t	Session.vim	/^nmap t :cs find t =expand("<cword>")$/;"	m
+w	Session.vim	/^nnoremap <silent> w :CCTreeWindowToggle$/;"	m
+y	Session.vim	/^nnoremap <silent> y :CCTreeWindowSaveCopy$/;"	m
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$$	Session.vim	/^vnoremap $$ `>a"`<i"$/;"	m
+$1	Session.vim	/^vnoremap $1 `>a)`<i($/;"	m
+$2	Session.vim	/^vnoremap $2 `>a]`<i[$/;"	m
+$3	Session.vim	/^vnoremap $3 `>a}`<i{$/;"	m
+$c	Session.vim	/^inoremap $c \/**$/;"	m
+$q	Session.vim	/^vnoremap $q `>a'`<i'$/;"	m
+$td	Session.vim	/^cnoremap $td tabnew ~\/Desktop\/$/;"	m
+$th	Session.vim	/^cnoremap $th tabnew ~\/$/;"	m
+$w	Session.vim	/^vnoremap $w `>a"`<i"$/;"	m
+(	Session.vim	/^inoremap <buffer> <silent> ( (=EchoFunc()$/;"	m
+)	Session.vim	/^inoremap <buffer> <silent> ) =EchoFuncClear()$/;"	m
+,be	Session.vim	/^nmap <silent> ,be :BufExplorer$/;"	m
+,bs	Session.vim	/^nmap <silent> ,bs :HSBufExplorer$/;"	m
+,bv	Session.vim	/^nmap <silent> ,bv :VSBufExplorer$/;"	m
+,c	Session.vim	/^nmap ,c  <Plug>NERDCommenterToggle$/;"	m
+,c	Session.vim	/^vmap ,c  <Plug>NERDCommenterToggle$/;"	m
+,c$	Session.vim	/^nmap ,c$ <Plug>NERDCommenterToEOL$/;"	m
+,c$	Session.vim	/^vmap ,c$ <Plug>NERDCommenterToEOL$/;"	m
+,cA	Session.vim	/^nmap ,cA <Plug>NERDCommenterAppend$/;"	m
+,cA	Session.vim	/^vmap ,cA <Plug>NERDCommenterAppend$/;"	m
+,ca	Session.vim	/^nmap ,ca <Plug>NERDCommenterAltDelims$/;"	m
+,caL	Session.vim	/^nmap ,caL <Plug>CalendarH$/;"	m
+,cal	Session.vim	/^nmap ,cal <Plug>CalendarV$/;"	m
+,cb	Session.vim	/^nmap ,cb <Plug>NERDCommenterAlignBoth$/;"	m
+,cb	Session.vim	/^vmap ,cb <Plug>NERDCommenterAlignBoth$/;"	m
+,cc	Session.vim	/^nmap ,cc <Plug>NERDCommenterComment$/;"	m
+,cc	Session.vim	/^vmap ,cc <Plug>NERDCommenterComment$/;"	m
+,ci	Session.vim	/^nmap ,ci <Plug>NERDCommenterInvert$/;"	m
+,ci	Session.vim	/^vmap ,ci <Plug>NERDCommenterInvert$/;"	m
+,cl	Session.vim	/^nmap ,cl <Plug>NERDCommenterAlignLeft$/;"	m
+,cl	Session.vim	/^vmap ,cl <Plug>NERDCommenterAlignLeft$/;"	m
+,cm	Session.vim	/^nmap ,cm <Plug>NERDCommenterMinimal$/;"	m
+,cm	Session.vim	/^vmap ,cm <Plug>NERDCommenterMinimal$/;"	m
+,cn	Session.vim	/^nmap ,cn <Plug>NERDCommenterNest$/;"	m
+,cn	Session.vim	/^vmap ,cn <Plug>NERDCommenterNest$/;"	m
+,cs	Session.vim	/^nmap ,cs <Plug>NERDCommenterSexy$/;"	m
+,cs	Session.vim	/^vmap ,cs <Plug>NERDCommenterSexy$/;"	m
+,cu	Session.vim	/^nmap ,cu <Plug>NERDCommenterUncomment$/;"	m
+,cu	Session.vim	/^vmap ,cu <Plug>NERDCommenterUncomment$/;"	m
+,cy	Session.vim	/^nmap ,cy <Plug>NERDCommenterYank$/;"	m
+,cy	Session.vim	/^vmap ,cy <Plug>NERDCommenterYank$/;"	m
+,fe	Session.vim	/^nmap <silent> ,fe :Sexplore!$/;"	m
+,ih	Session.vim	/^imap ,ih :IHS$/;"	m
+,ih	Session.vim	/^nmap ,ih :IHS$/;"	m
+,ihn	Session.vim	/^imap ,ihn :IHN$/;"	m
+,ihn	Session.vim	/^nmap ,ihn :IHN$/;"	m
+,is	Session.vim	/^imap ,is :IHS$/;"	m
+,is	Session.vim	/^nmap ,is :IHS$/;"	m
+,m	Session.vim	/^noremap ,m :%s\/\\r\/\/g$/;"	m
+,tc	Session.vim	/^map ,tc :tabclose$/;"	m
+,tl	Session.vim	/^map ,tl :Tlist$/;"	m
+,tm	Session.vim	/^map ,tm :tabmove$/;"	m
+,tn	Session.vim	/^map ,tn :tabnew %$/;"	m
+.	Session.vim	/^inoremap <expr> . omni#cpp#maycomplete#Dot()$/;"	m
+/*	Session.vim	/^inoremap <buffer> \/* \/*  *\/<Left><Left><Left>$/;"	m
+/*	Session.vim	/^vnoremap <buffer> \/* s\/*  *\/<Left><Left><Left>p$/;"	m
+/*	Session.vim	/^inoremap <buffer> \/*$/;"	m
+02l	Session.vim	/^normal! 02l$/;"	m
+:	Session.vim	/^inoremap <expr> : omni#cpp#maycomplete#Scope()$/;"	m
+<C-F12>	Session.vim	/^map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .$/;"	m
+<C-F2>	Session.vim	/^map <C-F2> <Plug>Vm_toggle_sign$/;"	m
+<C-F9>	Session.vim	/^imap <buffer> <silent> <C-F9> :call C_Run()$/;"	m
+<C-F9>	Session.vim	/^map <buffer> <silent> <C-F9> :call C_Run()$/;"	m
+<C-Tab>	Session.vim	/^inoremap <C-Tab> 	$/;"	m
+<F11>	Session.vim	/^nnoremap <silent> <F11> :call conque_term#exec_file()$/;"	m
+<F2>	Session.vim	/^map <F2> <Plug>Vm_goto_next_sign$/;"	m
+<F3>	Session.vim	/^map <F3> :Tlist$/;"	m
+<F5>	Session.vim	/^imap <silent> <expr> <F5> (pumvisible() ? "\\<Plug>LookupFileCE" : "")."\\\\<Plug>LookupFile"$/;"	m
+<F5>	Session.vim	/^nmap <silent> <F5> <Plug>LookupFile$/;"	m
+<F6>	Session.vim	/^vmap <F6> :!xclip -sel c$/;"	m
+<F7>	Session.vim	/^map <F7> :-1r!xclip -o -seln c$/;"	m
+<F9>	Session.vim	/^imap <buffer> <silent> <F9> :call C_Link()$/;"	m
+<F9>	Session.vim	/^map <buffer> <silent> <F9> :call C_Link()$/;"	m
+<M-F9>	Session.vim	/^imap <buffer> <silent> <M-F9> :call C_Compile()$/;"	m
+<M-F9>	Session.vim	/^map <buffer> <silent> <M-F9> :call C_Compile()$/;"	m
+<NL>	Session.vim	/^imap <buffer> <silent> <NL> =C_JumpCtrlJ()$/;"	m
+<NL>	Session.vim	/^map <NL> j$/;"	m
+<NL>	Session.vim	/^nmap <buffer> <silent> <NL> i=C_JumpCtrlJ()$/;"	m
+<Nul><Nul>c	Session.vim	/^nmap <Nul><Nul>c :vert scs find c =expand("<cword>")$/;"	m
+<Nul><Nul>d	Session.vim	/^nmap <Nul><Nul>d :vert scs find d =expand("<cword>")$/;"	m
+<Nul><Nul>e	Session.vim	/^nmap <Nul><Nul>e :vert scs find e =expand("<cword>")$/;"	m
+<Nul><Nul>f	Session.vim	/^nmap <Nul><Nul>f :vert scs find f =expand("<cfile>")$/;"	m
+<Nul><Nul>g	Session.vim	/^nmap <Nul><Nul>g :vert scs find g =expand("<cword>")$/;"	m
+<Nul><Nul>i	Session.vim	/^nmap <Nul><Nul>i :vert scs find i ^=expand("<cfile>")$/;"	m
+<Nul><Nul>s	Session.vim	/^nmap <Nul><Nul>s :vert scs find s =expand("<cword>")$/;"	m
+<Nul><Nul>t	Session.vim	/^nmap <Nul><Nul>t :vert scs find t =expand("<cword>")$/;"	m
+<Nul>c	Session.vim	/^nmap <Nul>c :scs find c =expand("<cword>")$/;"	m
+<Nul>d	Session.vim	/^nmap <Nul>d :scs find d =expand("<cword>")$/;"	m
+<Nul>e	Session.vim	/^nmap <Nul>e :scs find e =expand("<cword>")$/;"	m
+<Nul>f	Session.vim	/^nmap <Nul>f :scs find f =expand("<cfile>")$/;"	m
+<Nul>g	Session.vim	/^nmap <Nul>g :scs find g =expand("<cword>")$/;"	m
+<Nul>i	Session.vim	/^nmap <Nul>i :scs find i ^=expand("<cfile>")$/;"	m
+<Nul>s	Session.vim	/^nmap <Nul>s :scs find s =expand("<cword>")$/;"	m
+<Nul>t	Session.vim	/^nmap <Nul>t :scs find t =expand("<cword>")$/;"	m
+<Plug>CalendarH	Session.vim	/^nnoremap <silent> <Plug>CalendarH :cal Calendar(1)$/;"	m
+<Plug>CalendarV	Session.vim	/^nnoremap <silent> <Plug>CalendarV :cal Calendar(0)$/;"	m
+<Plug>LookupFileCE	Session.vim	/^inoremap <Plug>LookupFileCE $/;"	m
+<Plug>NERDCommenterAlignBoth	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment(0, "alignBoth")$/;"	m
+<Plug>NERDCommenterAlignBoth	Session.vim	/^vnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment(1, "alignBoth")$/;"	m
+<Plug>NERDCommenterAlignLeft	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment(0, "alignLeft")$/;"	m
+<Plug>NERDCommenterAlignLeft	Session.vim	/^vnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment(1, "alignLeft")$/;"	m
+<Plug>NERDCommenterAppend	Session.vim	/^nmap <silent> <Plug>NERDCommenterAppend :call NERDComment(0, "append")$/;"	m
+<Plug>NERDCommenterComment	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterComment :call NERDComment(0, "norm")$/;"	m
+<Plug>NERDCommenterComment	Session.vim	/^vnoremap <silent> <Plug>NERDCommenterComment :call NERDComment(1, "norm")$/;"	m
+<Plug>NERDCommenterInInsert	Session.vim	/^inoremap <silent> <Plug>NERDCommenterInInsert  <BS>:call NERDComment(0, "insert")$/;"	m
+<Plug>NERDCommenterInvert	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment(0, "invert")$/;"	m
+<Plug>NERDCommenterInvert	Session.vim	/^vnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment(1, "invert")$/;"	m
+<Plug>NERDCommenterMinimal	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment(0, "minimal")$/;"	m
+<Plug>NERDCommenterMinimal	Session.vim	/^vnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment(1, "minimal")$/;"	m
+<Plug>NERDCommenterNest	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterNest :call NERDComment(0, "nested")$/;"	m
+<Plug>NERDCommenterNest	Session.vim	/^vnoremap <silent> <Plug>NERDCommenterNest :call NERDComment(1, "nested")$/;"	m
+<Plug>NERDCommenterSexy	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment(0, "sexy")$/;"	m
+<Plug>NERDCommenterSexy	Session.vim	/^vnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment(1, "sexy")$/;"	m
+<Plug>NERDCommenterToEOL	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterToEOL :call NERDComment(0, "toEOL")$/;"	m
+<Plug>NERDCommenterToggle	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment(0, "toggle")$/;"	m
+<Plug>NERDCommenterToggle	Session.vim	/^vnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment(1, "toggle")$/;"	m
+<Plug>NERDCommenterUncomment	Session.vim	/^nnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment(0, "uncomment")$/;"	m
+<Plug>NERDCommenterUncomment	Session.vim	/^vnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment(1, "uncomment")$/;"	m
+<Plug>NERDCommenterYank	Session.vim	/^nmap <silent> <Plug>NERDCommenterYank :call NERDComment(0, "yank")$/;"	m
+<Plug>NERDCommenterYank	Session.vim	/^vmap <silent> <Plug>NERDCommenterYank :call NERDComment(1, "yank")$/;"	m
+<Plug>NetrwBrowseX	Session.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<S-F2>	Session.vim	/^imap <buffer> <silent> <S-F2> :A$/;"	m
+<S-F2>	Session.vim	/^map <S-F2> <Plug>Vm_goto_prev_sign$/;"	m
+<S-F2>	Session.vim	/^map <buffer> <silent> <S-F2> :A$/;"	m
+<S-F9>	Session.vim	/^imap <buffer> <silent> <S-F9> :call C_Arguments()$/;"	m
+<S-F9>	Session.vim	/^map <buffer> <silent> <S-F9> :call C_Arguments()$/;"	m
+<S-Tab>	Session.vim	/^inoremap <silent> <S-Tab> =BackwardsSnippet()$/;"	m
+>	Session.vim	/^inoremap <expr> > omni#cpp#maycomplete#Arrow()$/;"	m
+ALT_L	include/keyboard.h	48;"	d
+ALT_R	include/keyboard.h	49;"	d
+APPS	include/keyboard.h	41;"	d
+AS	makefile	/^AS = nasm$/;"	m
+BACKSPACE	include/keyboard.h	37;"	d
+CAPS_LOCK	include/keyboard.h	52;"	d
+CC	makefile	/^CC = gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS = -I include\/ -c -fno-stack-protector -fno-builtin -w -g $/;"	m
+CHECKSUM	kernel.asm	/^CHECKSUM equ -(MULTIBOOT_HEADER_MAGIC + MULTIBOOT_HEADER_FLAGS)$/;"	d
+CTRL_L	include/keyboard.h	46;"	d
+CTRL_R	include/keyboard.h	47;"	d
+DAY	include/time.h	42;"	d
+DAY	time.c	24;"	d	file:
+DELETE	include/keyboard.h	74;"	d
+DOWN	include/keyboard.h	80;"	d
+E	kernel_main.c	38;"	d	file:
+END	include/keyboard.h	76;"	d
+ENTER	include/keyboard.h	36;"	d
+ESC	include/keyboard.h	34;"	d
+Enter	int.asm	/^Enter$/;"	l
+F1	include/keyboard.h	57;"	d
+F10	include/keyboard.h	66;"	d
+F11	include/keyboard.h	67;"	d
+F12	include/keyboard.h	68;"	d
+F2	include/keyboard.h	58;"	d
+F3	include/keyboard.h	59;"	d
+F4	include/keyboard.h	60;"	d
+F5	include/keyboard.h	61;"	d
+F6	include/keyboard.h	62;"	d
+F7	include/keyboard.h	63;"	d
+F8	include/keyboard.h	64;"	d
+F9	include/keyboard.h	65;"	d
+FIRST_LDT_ENTRY	include/sched.h	200;"	d
+FIRST_TSS_ENTRY	include/sched.h	199;"	d
+FLAG_ALT_L	include/keyboard.h	25;"	d
+FLAG_ALT_R	include/keyboard.h	26;"	d
+FLAG_BREAK	include/keyboard.h	19;"	d
+FLAG_CTRL_L	include/keyboard.h	23;"	d
+FLAG_CTRL_R	include/keyboard.h	24;"	d
+FLAG_EXT	include/keyboard.h	20;"	d
+FLAG_PAD	include/keyboard.h	27;"	d
+FLAG_SHIFT_L	include/keyboard.h	21;"	d
+FLAG_SHIFT_R	include/keyboard.h	22;"	d
+GDT_SIZE	include/sched.h	174;"	d
+GUI_L	include/keyboard.h	39;"	d
+GUI_R	include/keyboard.h	40;"	d
+HD_BUSY	include/hd.h	9;"	d
+HD_DRQ	include/hd.h	13;"	d
+HD_ECC	include/hd.h	14;"	d
+HD_ERR	include/hd.h	15;"	d
+HD_READY	include/hd.h	10;"	d
+HD_SEEK	include/hd.h	12;"	d
+HD_WRERR	include/hd.h	11;"	d
+HOME	include/keyboard.h	75;"	d
+HOUR	include/time.h	41;"	d
+HOUR	time.c	23;"	d	file:
+HZ	include/time.h	20;"	d
+IDT_SIZE	include/sched.h	175;"	d
+INSERT	include/keyboard.h	73;"	d
+INT_HD	include/klibc.h	44;"	d
+INT_KEYBOARD	include/klibc.h	43;"	d
+INT_M	include/klibc.h	40;"	d
+INT_S	include/klibc.h	41;"	d
+INT_TIMER	include/klibc.h	42;"	d
+KB_IN_BYTES	include/keyboard.h	15;"	d
+LD	makefile	/^LD = ld$/;"	m
+LDFLAGS	makefile	/^LDFLAGS=-Ttext 0x100000$/;"	m
+LEAR	include/time.h	54;"	d
+LEAR	time.c	64;"	d	file:
+LEFT	include/keyboard.h	81;"	d
+LOCK_INC	include/sched.h	214;"	d
+Leave	int.asm	/^Leave$/;"	l
+MAP_COLS	include/keyboard.h	16;"	d
+MASK_RAW	include/keyboard.h	29;"	d
+MAX_PROC	include/sched.h	203;"	d
+MIN	include/time.h	40;"	d
+MIN	time.c	22;"	d	file:
+MM_SIZE	include/page.h	20;"	d
+MM_SIZE	page.c	5;"	d	file:
+MULTIBOOT_HEADER_FLAGS	kernel.asm	/^MULTIBOOT_HEADER_FLAGS equ MULTIBOOT_PAGE_ALIGN | MULTIBOOT_MEMORY_INFO$/;"	d
+MULTIBOOT_HEADER_MAGIC	kernel.asm	/^MULTIBOOT_HEADER_MAGIC equ 0x1BADB002$/;"	d
+MULTIBOOT_MEMORY_INFO	kernel.asm	/^MULTIBOOT_MEMORY_INFO  equ 1<<1$/;"	d
+MULTIBOOT_PAGE_ALIGN	kernel.asm	/^MULTIBOOT_PAGE_ALIGN   equ 1<<0$/;"	d
+NR_SCAN_CODES	include/keyboard.h	17;"	d
+NT	sched.c	2;"	d	file:
+NUM_LOCK	include/keyboard.h	53;"	d
+PAD_0	include/keyboard.h	96;"	d
+PAD_1	include/keyboard.h	97;"	d
+PAD_2	include/keyboard.h	98;"	d
+PAD_3	include/keyboard.h	99;"	d
+PAD_4	include/keyboard.h	100;"	d
+PAD_5	include/keyboard.h	101;"	d
+PAD_6	include/keyboard.h	102;"	d
+PAD_7	include/keyboard.h	103;"	d
+PAD_8	include/keyboard.h	104;"	d
+PAD_9	include/keyboard.h	105;"	d
+PAD_DEL	include/keyboard.h	116;"	d
+PAD_DOT	include/keyboard.h	95;"	d
+PAD_DOWN	include/keyboard.h	107;"	d
+PAD_END	include/keyboard.h	111;"	d
+PAD_ENTER	include/keyboard.h	94;"	d
+PAD_HOME	include/keyboard.h	110;"	d
+PAD_INS	include/keyboard.h	114;"	d
+PAD_LEFT	include/keyboard.h	108;"	d
+PAD_MID	include/keyboard.h	115;"	d
+PAD_MINUS	include/keyboard.h	92;"	d
+PAD_PAGEDOWN	include/keyboard.h	113;"	d
+PAD_PAGEUP	include/keyboard.h	112;"	d
+PAD_PLUS	include/keyboard.h	93;"	d
+PAD_RIGHT	include/keyboard.h	109;"	d
+PAD_SLASH	include/keyboard.h	90;"	d
+PAD_STAR	include/keyboard.h	91;"	d
+PAD_UP	include/keyboard.h	106;"	d
+PAGEDOWN	include/keyboard.h	78;"	d
+PAGEUP	include/keyboard.h	77;"	d
+PAGE_FRAMES	include/page.h	24;"	d
+PAGE_FRAMES	page.c	9;"	d	file:
+PAGE_SIZE	include/page.h	22;"	d
+PAGE_SIZE	page.c	7;"	d	file:
+PAUSEBREAK	include/keyboard.h	72;"	d
+PDE_SIZE	include/page.h	25;"	d
+PDE_SIZE	page.c	10;"	d	file:
+PG_ATTR_4K	page.c	21;"	d	file:
+PG_ATTR_ACCESS	page.c	22;"	d	file:
+PG_ATTR_AVL	page.c	20;"	d	file:
+POS	kernel_main.c	39;"	d	file:
+POS	shell.c	25;"	d	file:
+POWER	include/keyboard.h	85;"	d
+PRINTSCREEN	include/keyboard.h	71;"	d
+PTE_SIZE	include/page.h	26;"	d
+PTE_SIZE	page.c	11;"	d	file:
+REG_STATUS	include/hd.h	16;"	d
+RIGHT	include/keyboard.h	82;"	d
+S	kernel_main.c	37;"	d	file:
+SCROLL_LOCK	include/keyboard.h	54;"	d
+SHIFT_L	include/keyboard.h	44;"	d
+SHIFT_R	include/keyboard.h	45;"	d
+SLEEP	include/keyboard.h	86;"	d
+STACK_SIZE	include/sched.h	183;"	d
+SYSTEM_MM	include/page.h	21;"	d
+SYSTEM_MM	page.c	6;"	d	file:
+SYSTEM_PAGES	include/page.h	23;"	d
+SYSTEM_PAGES	page.c	8;"	d	file:
+SessionLoad	Session.vim	/^let SessionLoad = 1$/;"	v
+TAB	include/keyboard.h	35;"	d
+TASK_INTERRUPTABLE	include/sched.h	171;"	d
+TASK_RUNNING	include/sched.h	170;"	d
+TASK_STOP	include/sched.h	173;"	d
+TASK_UNINTERRUPTABLE	include/sched.h	172;"	d
+Task0	kernel_main.c	/^void Task0()$/;"	f
+Task1	kernel_main.c	/^void Task1()$/;"	f
+Task2	kernel_main.c	/^void Task2()$/;"	f
+UP	include/keyboard.h	79;"	d
+WAKE	include/keyboard.h	87;"	d
+X	keyboard.c	21;"	d	file:
+Y	keyboard.c	22;"	d	file:
+YEAR	include/time.h	43;"	d
+YEAR	time.c	25;"	d	file:
+[%	Session.vim	/^vmap [% [%m'gv``$/;"	m
+\+"	Session.vim	/^inoremap <buffer> <silent> \\+" :call C_InsertTemplate("cpp.cout-operator")$/;"	m
+\+"	Session.vim	/^noremap <buffer> <silent> \\+" :call C_InsertTemplate("cpp.cout-operator")$/;"	m
+\+ai	Session.vim	/^inoremap <buffer> <silent> \\+ai :call C_InsertTemplate("cpp.accessor-implementation")$/;"	m
+\+ai	Session.vim	/^noremap <buffer> <silent> \\+ai :call C_InsertTemplate("cpp.accessor-implementation")$/;"	m
+\+c	Session.vim	/^inoremap <buffer> <silent> \\+c :call C_InsertTemplate("cpp.class-definition")$/;"	m
+\+c	Session.vim	/^noremap <buffer> <silent> \\+c :call C_InsertTemplate("cpp.class-definition")$/;"	m
+\+c.	Session.vim	/^inoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points")$/;"	m
+\+c.	Session.vim	/^nnoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points")$/;"	m
+\+c.	Session.vim	/^onoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points")$/;"	m
+\+c.	Session.vim	/^vnoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points", "v")$/;"	m
+\+ca	Session.vim	/^inoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch")$/;"	m
+\+ca	Session.vim	/^nnoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch")$/;"	m
+\+ca	Session.vim	/^onoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch")$/;"	m
+\+ca	Session.vim	/^vnoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch", "v")$/;"	m
+\+ci	Session.vim	/^inoremap <buffer> <silent> \\+ci :call C_InsertTemplate("cpp.class-implementation")$/;"	m
+\+ci	Session.vim	/^noremap <buffer> <silent> \\+ci :call C_InsertTemplate("cpp.class-implementation")$/;"	m
+\+cn	Session.vim	/^inoremap <buffer> <silent> \\+cn :call C_InsertTemplate("cpp.class-using-new-definition")$/;"	m
+\+cn	Session.vim	/^noremap <buffer> <silent> \\+cn :call C_InsertTemplate("cpp.class-using-new-definition")$/;"	m
+\+cni	Session.vim	/^inoremap <buffer> <silent> \\+cni :call C_InsertTemplate("cpp.class-using-new-implementation")$/;"	m
+\+cni	Session.vim	/^noremap <buffer> <silent> \\+cni :call C_InsertTemplate("cpp.class-using-new-implementation")$/;"	m
+\+co	Session.vim	/^inoremap <buffer> <silent> \\+co :call C_InsertTemplate("cpp.cout")$/;"	m
+\+co	Session.vim	/^noremap <buffer> <silent> \\+co :call C_InsertTemplate("cpp.cout")$/;"	m
+\+ec	Session.vim	/^inoremap <buffer> <silent> \\+ec :call C_InsertTemplate("cpp.error-class")$/;"	m
+\+ec	Session.vim	/^noremap <buffer> <silent> \\+ec :call C_InsertTemplate("cpp.error-class")$/;"	m
+\+mi	Session.vim	/^inoremap <buffer> <silent> \\+mi :call C_InsertTemplate("cpp.method-implementation")$/;"	m
+\+mi	Session.vim	/^noremap <buffer> <silent> \\+mi :call C_InsertTemplate("cpp.method-implementation")$/;"	m
+\+pc	Session.vim	/^inoremap <buffer> \\+pc :IncludeCppC9Library $/;"	m
+\+pc	Session.vim	/^noremap <buffer> \\+pc :IncludeCppCLibrary $/;"	m
+\+ps	Session.vim	/^inoremap <buffer> \\+ps :IncludeCppLibrary $/;"	m
+\+ps	Session.vim	/^noremap <buffer> \\+ps :IncludeCppLibrary $/;"	m
+\+tai	Session.vim	/^inoremap <buffer> <silent> \\+tai :call C_InsertTemplate("cpp.template-accessor-implementation")$/;"	m
+\+tai	Session.vim	/^noremap <buffer> <silent> \\+tai :call C_InsertTemplate("cpp.template-accessor-implementation")$/;"	m
+\+tc	Session.vim	/^inoremap <buffer> <silent> \\+tc :call C_InsertTemplate("cpp.template-class-definition")$/;"	m
+\+tc	Session.vim	/^noremap <buffer> <silent> \\+tc :call C_InsertTemplate("cpp.template-class-definition")$/;"	m
+\+tci	Session.vim	/^inoremap <buffer> <silent> \\+tci :call C_InsertTemplate("cpp.template-class-implementation")$/;"	m
+\+tci	Session.vim	/^noremap <buffer> <silent> \\+tci :call C_InsertTemplate("cpp.template-class-implementation")$/;"	m
+\+tcn	Session.vim	/^inoremap <buffer> <silent> \\+tcn :call C_InsertTemplate("cpp.template-class-using-new-definition")$/;"	m
+\+tcn	Session.vim	/^noremap <buffer> <silent> \\+tcn :call C_InsertTemplate("cpp.template-class-using-new-definition")$/;"	m
+\+tcni	Session.vim	/^inoremap <buffer> <silent> \\+tcni :call C_InsertTemplate("cpp.template-class-using-new-implementation")$/;"	m
+\+tcni	Session.vim	/^noremap <buffer> <silent> \\+tcni :call C_InsertTemplate("cpp.template-class-using-new-implementation")$/;"	m
+\+tf	Session.vim	/^inoremap <buffer> <silent> \\+tf :call C_InsertTemplate("cpp.template-function")$/;"	m
+\+tf	Session.vim	/^noremap <buffer> <silent> \\+tf :call C_InsertTemplate("cpp.template-function")$/;"	m
+\+tmi	Session.vim	/^inoremap <buffer> <silent> \\+tmi :call C_InsertTemplate("cpp.template-method-implementation")$/;"	m
+\+tmi	Session.vim	/^noremap <buffer> <silent> \\+tmi :call C_InsertTemplate("cpp.template-method-implementation")$/;"	m
+\+tr	Session.vim	/^inoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch")$/;"	m
+\+tr	Session.vim	/^nnoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch")$/;"	m
+\+tr	Session.vim	/^onoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch")$/;"	m
+\+tr	Session.vim	/^vnoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch", "v")$/;"	m
+\c*	Session.vim	/^nnoremap <buffer> <silent> \\c* :call C_CodeComment("a","yes")$/;"	m
+\c*	Session.vim	/^onoremap <buffer> <silent> \\c* :call C_CodeComment("a","yes")$/;"	m
+\c*	Session.vim	/^vnoremap <buffer> <silent> \\c* :call C_CodeComment("v","yes")$/;"	m
+\cc	Session.vim	/^nnoremap <buffer> <silent> \\cc :call C_CodeComment("a","no")$/;"	m
+\cc	Session.vim	/^onoremap <buffer> <silent> \\cc :call C_CodeComment("a","no")$/;"	m
+\cc	Session.vim	/^vnoremap <buffer> <silent> \\cc :call C_CodeComment("v","no")$/;"	m
+\ccl	Session.vim	/^inoremap <buffer> <silent> \\ccl :call C_InsertTemplate("comment.class")$/;"	m
+\ccl	Session.vim	/^noremap <buffer> <silent> \\ccl :call C_InsertTemplate("comment.class")$/;"	m
+\ccs	Session.vim	/^inoremap <buffer> \\ccs :CFileSection $/;"	m
+\ccs	Session.vim	/^noremap <buffer> \\ccs :CFileSection $/;"	m
+\cd	Session.vim	/^inoremap <buffer> <silent> \\cd :call C_InsertDateAndTime('d')$/;"	m
+\cd	Session.vim	/^nnoremap <buffer> <silent> \\cd :call C_InsertDateAndTime('d')$/;"	m
+\cd	Session.vim	/^onoremap <buffer> <silent> \\cd :call C_InsertDateAndTime('d')$/;"	m
+\cd	Session.vim	/^vnoremap <buffer> <silent> \\cd s:call C_InsertDateAndTime('d')$/;"	m
+\cfdh	Session.vim	/^inoremap <buffer> <silent> \\cfdh :call C_InsertTemplate("comment.file-description-header")$/;"	m
+\cfdh	Session.vim	/^noremap <buffer> <silent> \\cfdh :call C_InsertTemplate("comment.file-description-header")$/;"	m
+\cfdi	Session.vim	/^inoremap <buffer> <silent> \\cfdi :call C_InsertTemplate("comment.file-description")$/;"	m
+\cfdi	Session.vim	/^noremap <buffer> <silent> \\cfdi :call C_InsertTemplate("comment.file-description")$/;"	m
+\cfr	Session.vim	/^inoremap <buffer> <silent> \\cfr :call C_InsertTemplate("comment.frame")$/;"	m
+\cfr	Session.vim	/^noremap <buffer> <silent> \\cfr :call C_InsertTemplate("comment.frame")$/;"	m
+\cfu	Session.vim	/^inoremap <buffer> <silent> \\cfu :call C_InsertTemplate("comment.function")$/;"	m
+\cfu	Session.vim	/^noremap <buffer> <silent> \\cfu :call C_InsertTemplate("comment.function")$/;"	m
+\chs	Session.vim	/^inoremap <buffer> \\chs :HFileSection $/;"	m
+\chs	Session.vim	/^noremap <buffer> \\chs :HFileSection $/;"	m
+\cj	Session.vim	/^inoremap <buffer> <silent> \\cj :call C_AdjustLineEndComm("a")$/;"	m
+\cj	Session.vim	/^nnoremap <buffer> <silent> \\cj :call C_AdjustLineEndComm("a")$/;"	m
+\cj	Session.vim	/^onoremap <buffer> <silent> \\cj :call C_AdjustLineEndComm("a")$/;"	m
+\cj	Session.vim	/^vnoremap <buffer> <silent> \\cj :call C_AdjustLineEndComm("v")$/;"	m
+\ckc	Session.vim	/^inoremap <buffer> \\ckc :KeywordComment $/;"	m
+\ckc	Session.vim	/^noremap <buffer> \\ckc :KeywordComment $/;"	m
+\cl	Session.vim	/^inoremap <buffer> <silent> \\cl :call C_LineEndComment()$/;"	m
+\cl	Session.vim	/^nnoremap <buffer> <silent> \\cl :call C_LineEndComment()$/;"	m
+\cl	Session.vim	/^onoremap <buffer> <silent> \\cl :call C_LineEndComment()$/;"	m
+\cl	Session.vim	/^vnoremap <buffer> <silent> \\cl :call C_MultiLineEndComments()$/;"	m
+\cme	Session.vim	/^inoremap <buffer> <silent> \\cme :call C_InsertTemplate("comment.method")$/;"	m
+\cme	Session.vim	/^noremap <buffer> <silent> \\cme :call C_InsertTemplate("comment.method")$/;"	m
+\co	Session.vim	/^nnoremap <buffer> <silent> \\co :call C_CommentCode("a")$/;"	m
+\co	Session.vim	/^onoremap <buffer> <silent> \\co :call C_CommentCode("a")$/;"	m
+\co	Session.vim	/^vnoremap <buffer> <silent> \\co :call C_CommentCode("v")$/;"	m
+\cs	Session.vim	/^noremap <buffer> <silent> \\cs :call C_GetLineEndCommCol()$/;"	m
+\csc	Session.vim	/^inoremap <buffer> \\csc :SpecialComment $/;"	m
+\csc	Session.vim	/^noremap <buffer> \\csc :SpecialComment $/;"	m
+\ct	Session.vim	/^inoremap <buffer> <silent> \\ct :call C_InsertDateAndTime('dt')$/;"	m
+\ct	Session.vim	/^nnoremap <buffer> <silent> \\ct :call C_InsertDateAndTime('dt')$/;"	m
+\ct	Session.vim	/^onoremap <buffer> <silent> \\ct :call C_InsertDateAndTime('dt')$/;"	m
+\ct	Session.vim	/^vnoremap <buffer> <silent> \\ct s:call C_InsertDateAndTime('dt')$/;"	m
+\hm	Session.vim	/^imap <buffer> <silent> \\hm :call C_Help("m")$/;"	m
+\hm	Session.vim	/^map <buffer> <silent> \\hm :call C_Help("m")$/;"	m
+\hp	Session.vim	/^imap <buffer> <silent> \\hp :call C_HelpCsupport()$/;"	m
+\hp	Session.vim	/^map <buffer> <silent> \\hp :call C_HelpCsupport()$/;"	m
+\i0	Session.vim	/^inoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  , "a")$/;"	m
+\i0	Session.vim	/^nnoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  , "a")$/;"	m
+\i0	Session.vim	/^onoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  , "a")$/;"	m
+\i0	Session.vim	/^vnoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  , "v")$/;"	m
+\ias	Session.vim	/^inoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert")$/;"	m
+\ias	Session.vim	/^nnoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert")$/;"	m
+\ias	Session.vim	/^onoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert")$/;"	m
+\ias	Session.vim	/^vnoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert", "v")$/;"	m
+\ica	Session.vim	/^inoremap <buffer> <silent> \\ica :call C_InsertTemplate("idioms.calloc")$/;"	m
+\ica	Session.vim	/^noremap <buffer> <silent> \\ica :call C_InsertTemplate("idioms.calloc")$/;"	m
+\ie	Session.vim	/^inoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum")$/;"	m
+\ie	Session.vim	/^nnoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum")$/;"	m
+\ie	Session.vim	/^onoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum")$/;"	m
+\ie	Session.vim	/^vnoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum"  , "v")$/;"	m
+\if	Session.vim	/^inoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function")$/;"	m
+\if	Session.vim	/^nnoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function")$/;"	m
+\if	Session.vim	/^onoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function")$/;"	m
+\if	Session.vim	/^vnoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function", "v")$/;"	m
+\ii	Session.vim	/^inoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file")$/;"	m
+\ii	Session.vim	/^nnoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file")$/;"	m
+\ii	Session.vim	/^onoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file")$/;"	m
+\ii	Session.vim	/^vnoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file", "v")$/;"	m
+\im	Session.vim	/^inoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main")$/;"	m
+\im	Session.vim	/^nnoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main")$/;"	m
+\im	Session.vim	/^onoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main")$/;"	m
+\im	Session.vim	/^vnoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main", "v")$/;"	m
+\ima	Session.vim	/^inoremap <buffer> <silent> \\ima :call C_InsertTemplate("idioms.malloc")$/;"	m
+\ima	Session.vim	/^noremap <buffer> <silent> \\ima :call C_InsertTemplate("idioms.malloc")$/;"	m
+\in	Session.vim	/^inoremap <buffer> <silent> \\in :call C_CodeFor("down", "a")$/;"	m
+\in	Session.vim	/^nnoremap <buffer> <silent> \\in :call C_CodeFor("down", "a")$/;"	m
+\in	Session.vim	/^onoremap <buffer> <silent> \\in :call C_CodeFor("down", "a")$/;"	m
+\in	Session.vim	/^vnoremap <buffer> <silent> \\in :call C_CodeFor("down", "v")$/;"	m
+\io	Session.vim	/^inoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file")$/;"	m
+\io	Session.vim	/^nnoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file")$/;"	m
+\io	Session.vim	/^onoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file")$/;"	m
+\io	Session.vim	/^vnoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file", "v")$/;"	m
+\ip	Session.vim	/^inoremap <buffer> <silent> \\ip :call C_InsertTemplate("idioms.printf")$/;"	m
+\ip	Session.vim	/^noremap <buffer> <silent> \\ip :call C_InsertTemplate("idioms.printf")$/;"	m
+\is	Session.vim	/^inoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct")$/;"	m
+\is	Session.vim	/^nnoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct")$/;"	m
+\is	Session.vim	/^onoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct")$/;"	m
+\is	Session.vim	/^vnoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct", "v")$/;"	m
+\isc	Session.vim	/^inoremap <buffer> <silent> \\isc :call C_InsertTemplate("idioms.scanf")$/;"	m
+\isc	Session.vim	/^noremap <buffer> <silent> \\isc :call C_InsertTemplate("idioms.scanf")$/;"	m
+\isf	Session.vim	/^inoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static")$/;"	m
+\isf	Session.vim	/^nnoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static")$/;"	m
+\isf	Session.vim	/^onoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static")$/;"	m
+\isf	Session.vim	/^vnoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static", "v")$/;"	m
+\isi	Session.vim	/^inoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof")$/;"	m
+\isi	Session.vim	/^nnoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof")$/;"	m
+\isi	Session.vim	/^onoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof")$/;"	m
+\isi	Session.vim	/^vnoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof", "v")$/;"	m
+\iu	Session.vim	/^inoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union")$/;"	m
+\iu	Session.vim	/^nnoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union")$/;"	m
+\iu	Session.vim	/^onoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union")$/;"	m
+\iu	Session.vim	/^vnoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union" , "v")$/;"	m
+\nc	Session.vim	/^inoremap <buffer> <silent> \\nc :call C_ProtoClear()$/;"	m
+\nc	Session.vim	/^noremap <buffer> <silent> \\nc :call C_ProtoClear()$/;"	m
+\ne	Session.vim	/^inoremap <buffer> <silent> \\ne :call C_CodeSnippet("e")$/;"	m
+\ne	Session.vim	/^noremap <buffer> <silent> \\ne :call C_CodeSnippet("e")$/;"	m
+\ni	Session.vim	/^inoremap <buffer> <silent> \\ni :call C_ProtoInsert()$/;"	m
+\ni	Session.vim	/^noremap <buffer> <silent> \\ni :call C_ProtoInsert()$/;"	m
+\np	Session.vim	/^inoremap <buffer> <silent> \\np :call C_ProtoPick("n")$/;"	m
+\np	Session.vim	/^nnoremap <buffer> <silent> \\np :call C_ProtoPick("n")$/;"	m
+\np	Session.vim	/^onoremap <buffer> <silent> \\np :call C_ProtoPick("n")$/;"	m
+\np	Session.vim	/^vnoremap <buffer> <silent> \\np :call C_ProtoPick("v")$/;"	m
+\nr	Session.vim	/^inoremap <buffer> <silent> \\nr :call C_CodeSnippet("r")$/;"	m
+\nr	Session.vim	/^noremap <buffer> <silent> \\nr :call C_CodeSnippet("r")$/;"	m
+\ns	Session.vim	/^inoremap <buffer> <silent> \\ns :call C_ProtoShow()$/;"	m
+\ns	Session.vim	/^noremap <buffer> <silent> \\ns :call C_ProtoShow()$/;"	m
+\ntl	Session.vim	/^noremap <buffer> <silent> \\ntl :call C_BrowseTemplateFiles("Local")$/;"	m
+\ntr	Session.vim	/^noremap <buffer> <silent> \\ntr :call C_RereadTemplates()$/;"	m
+\nts	Session.vim	/^noremap <buffer> \\nts :CStyle $/;"	m
+\nw	Session.vim	/^inoremap <buffer> <silent> \\nw :call C_CodeSnippet("w")$/;"	m
+\nw	Session.vim	/^nnoremap <buffer> <silent> \\nw :call C_CodeSnippet("w")$/;"	m
+\nw	Session.vim	/^onoremap <buffer> <silent> \\nw :call C_CodeSnippet("w")$/;"	m
+\nw	Session.vim	/^vnoremap <buffer> <silent> \\nw :call C_CodeSnippet("wv")$/;"	m
+\p<	Session.vim	/^inoremap <buffer> <silent> \\p< :call C_InsertTemplate("preprocessor.include-global")$/;"	m
+\p<	Session.vim	/^noremap <buffer> <silent> \\p< :call C_InsertTemplate("preprocessor.include-global")$/;"	m
+\p"	Session.vim	/^inoremap <buffer> <silent> \\p" :call C_InsertTemplate("preprocessor.include-local")$/;"	m
+\p"	Session.vim	/^noremap <buffer> <silent> \\p" :call C_InsertTemplate("preprocessor.include-local")$/;"	m
+\pc	Session.vim	/^inoremap <buffer> \\pc :IncludeC99Library $/;"	m
+\pc	Session.vim	/^noremap <buffer> \\pc :IncludeC99Library $/;"	m
+\pd	Session.vim	/^inoremap <buffer> <silent> \\pd :call C_InsertTemplate("preprocessor.define")$/;"	m
+\pd	Session.vim	/^noremap <buffer> <silent> \\pd :call C_InsertTemplate("preprocessor.define")$/;"	m
+\pe	Session.vim	/^inoremap <buffer> <silent> \\pe :call C_InsertTemplate("preprocessor.error")$/;"	m
+\pe	Session.vim	/^noremap <buffer> <silent> \\pe :call C_InsertTemplate("preprocessor.error")$/;"	m
+\pi0	Session.vim	/^inoremap <buffer> <silent> \\pi0 :call C_PPIf0("a")$/;"	m
+\pi0	Session.vim	/^nnoremap <buffer> <silent> \\pi0 :call C_PPIf0("a")$/;"	m
+\pi0	Session.vim	/^onoremap <buffer> <silent> \\pi0 :call C_PPIf0("a")$/;"	m
+\pi0	Session.vim	/^vnoremap <buffer> <silent> \\pi0 :call C_PPIf0("v")$/;"	m
+\pid	Session.vim	/^inoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif")$/;"	m
+\pid	Session.vim	/^nnoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif")$/;"	m
+\pid	Session.vim	/^onoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif")$/;"	m
+\pid	Session.vim	/^vnoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif", "v")$/;"	m
+\pie	Session.vim	/^inoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif")$/;"	m
+\pie	Session.vim	/^nnoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif")$/;"	m
+\pie	Session.vim	/^onoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif")$/;"	m
+\pie	Session.vim	/^vnoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif", "v")$/;"	m
+\pin	Session.vim	/^inoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif")$/;"	m
+\pin	Session.vim	/^nnoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif")$/;"	m
+\pin	Session.vim	/^onoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif")$/;"	m
+\pin	Session.vim	/^vnoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif", "v")$/;"	m
+\pind	Session.vim	/^inoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif")$/;"	m
+\pind	Session.vim	/^nnoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif")$/;"	m
+\pind	Session.vim	/^onoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif")$/;"	m
+\pind	Session.vim	/^vnoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif", "v")$/;"	m
+\pl	Session.vim	/^inoremap <buffer> <silent> \\pl :call C_InsertTemplate("preprocessor.line")$/;"	m
+\pl	Session.vim	/^noremap <buffer> <silent> \\pl :call C_InsertTemplate("preprocessor.line")$/;"	m
+\pp	Session.vim	/^inoremap <buffer> <silent> \\pp :call C_InsertTemplate("preprocessor.pragma")$/;"	m
+\pp	Session.vim	/^noremap <buffer> <silent> \\pp :call C_InsertTemplate("preprocessor.pragma")$/;"	m
+\pr0	Session.vim	/^inoremap <buffer> <silent> \\pr0 :call C_PPIf0Remove()$/;"	m
+\pr0	Session.vim	/^noremap <buffer> <silent> \\pr0 :call C_PPIf0Remove()$/;"	m
+\ps	Session.vim	/^inoremap <buffer> \\ps :IncludeStdLibrary $/;"	m
+\ps	Session.vim	/^noremap <buffer> \\ps :IncludeStdLibrary $/;"	m
+\pu	Session.vim	/^inoremap <buffer> <silent> \\pu :call C_InsertTemplate("preprocessor.undefine")$/;"	m
+\pu	Session.vim	/^noremap <buffer> <silent> \\pu :call C_InsertTemplate("preprocessor.undefine")$/;"	m
+\ra	Session.vim	/^imap <buffer> <silent> \\ra :call C_Arguments()$/;"	m
+\ra	Session.vim	/^map <buffer> <silent> \\ra :call C_Arguments()$/;"	m
+\rc	Session.vim	/^imap <buffer> <silent> \\rc :call C_Compile()$/;"	m
+\rc	Session.vim	/^map <buffer> <silent> \\rc :call C_Compile()$/;"	m
+\rd	Session.vim	/^imap <buffer> <silent> \\rd :call C_Indent()$/;"	m
+\rd	Session.vim	/^map <buffer> <silent> \\rd :call C_Indent()$/;"	m
+\rh	Session.vim	/^imap <buffer> <silent> \\rh :call C_Hardcopy("n")$/;"	m
+\rh	Session.vim	/^nmap <buffer> <silent> \\rh :call C_Hardcopy("n")$/;"	m
+\rh	Session.vim	/^omap <buffer> <silent> \\rh :call C_Hardcopy("n")$/;"	m
+\rh	Session.vim	/^vmap <buffer> <silent> \\rh :call C_Hardcopy("v")$/;"	m
+\rl	Session.vim	/^imap <buffer> <silent> \\rl :call C_Link()$/;"	m
+\rl	Session.vim	/^map <buffer> <silent> \\rl :call C_Link()$/;"	m
+\rm	Session.vim	/^imap <buffer> <silent> \\rm :call C_Make()$/;"	m
+\rm	Session.vim	/^map <buffer> <silent> \\rm :call C_Make()$/;"	m
+\rma	Session.vim	/^imap <buffer> <silent> \\rma :call C_MakeArguments()$/;"	m
+\rma	Session.vim	/^map <buffer> <silent> \\rma :call C_MakeArguments()$/;"	m
+\rmc	Session.vim	/^imap <buffer> <silent> \\rmc :call C_MakeClean()$/;"	m
+\rmc	Session.vim	/^map <buffer> <silent> \\rmc :call C_MakeClean()$/;"	m
+\rme	Session.vim	/^imap <buffer> <silent> \\rme :call C_MakeExeToRun()$/;"	m
+\rme	Session.vim	/^map <buffer> <silent> \\rme :call C_MakeExeToRun()$/;"	m
+\ro	Session.vim	/^imap <buffer> <silent> \\ro :call C_Toggle_Gvim_Xterm()$/;"	m
+\ro	Session.vim	/^map <buffer> <silent> \\ro :call C_Toggle_Gvim_Xterm()$/;"	m
+\rp	Session.vim	/^imap <buffer> <silent> \\rp :call C_SplintCheck()$/;"	m
+\rp	Session.vim	/^map <buffer> <silent> \\rp :call C_SplintCheck()$/;"	m
+\rpa	Session.vim	/^imap <buffer> <silent> \\rpa :call C_SplintArguments()$/;"	m
+\rpa	Session.vim	/^map <buffer> <silent> \\rpa :call C_SplintArguments()$/;"	m
+\rr	Session.vim	/^imap <buffer> <silent> \\rr :call C_Run()$/;"	m
+\rr	Session.vim	/^map <buffer> <silent> \\rr :call C_Run()$/;"	m
+\rs	Session.vim	/^imap <buffer> <silent> \\rs :call C_Settings()$/;"	m
+\rs	Session.vim	/^map <buffer> <silent> \\rs :call C_Settings()$/;"	m
+\rx	Session.vim	/^imap <buffer> <silent> \\rx :call C_XtermSize()$/;"	m
+\rx	Session.vim	/^map <buffer> <silent> \\rx :call C_XtermSize()$/;"	m
+\sb	Session.vim	/^inoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block")$/;"	m
+\sb	Session.vim	/^nnoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block")$/;"	m
+\sb	Session.vim	/^onoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block")$/;"	m
+\sb	Session.vim	/^vnoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block", "v")$/;"	m
+\sc	Session.vim	/^inoremap <buffer> <silent> \\sc :call C_InsertTemplate("statements.case")$/;"	m
+\sc	Session.vim	/^noremap <buffer> <silent> \\sc :call C_InsertTemplate("statements.case")$/;"	m
+\sd	Session.vim	/^inoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while")$/;"	m
+\sd	Session.vim	/^nnoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while")$/;"	m
+\sd	Session.vim	/^onoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while")$/;"	m
+\sd	Session.vim	/^vnoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while", "v")$/;"	m
+\se	Session.vim	/^inoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block")$/;"	m
+\se	Session.vim	/^nnoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block")$/;"	m
+\se	Session.vim	/^onoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block")$/;"	m
+\se	Session.vim	/^vnoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block", "v")$/;"	m
+\sf	Session.vim	/^inoremap <buffer> <silent> \\sf :call C_InsertTemplate("statements.for")$/;"	m
+\sf	Session.vim	/^noremap <buffer> <silent> \\sf :call C_InsertTemplate("statements.for")$/;"	m
+\sfo	Session.vim	/^inoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block")$/;"	m
+\sfo	Session.vim	/^nnoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block")$/;"	m
+\sfo	Session.vim	/^onoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block")$/;"	m
+\sfo	Session.vim	/^vnoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block", "v")$/;"	m
+\si	Session.vim	/^inoremap <buffer> <silent> \\si :call C_InsertTemplate("statements.if")$/;"	m
+\si	Session.vim	/^noremap <buffer> <silent> \\si :call C_InsertTemplate("statements.if")$/;"	m
+\sie	Session.vim	/^inoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else")$/;"	m
+\sie	Session.vim	/^nnoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else")$/;"	m
+\sie	Session.vim	/^onoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else")$/;"	m
+\sie	Session.vim	/^vnoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else", "v")$/;"	m
+\sif	Session.vim	/^inoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block")$/;"	m
+\sif	Session.vim	/^nnoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block")$/;"	m
+\sif	Session.vim	/^onoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block")$/;"	m
+\sif	Session.vim	/^vnoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block", "v")$/;"	m
+\sife	Session.vim	/^inoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else")$/;"	m
+\sife	Session.vim	/^nnoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else")$/;"	m
+\sife	Session.vim	/^onoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else")$/;"	m
+\sife	Session.vim	/^vnoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else", "v")$/;"	m
+\ss	Session.vim	/^inoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch")$/;"	m
+\ss	Session.vim	/^nnoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch")$/;"	m
+\ss	Session.vim	/^onoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch")$/;"	m
+\ss	Session.vim	/^vnoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch", "v")$/;"	m
+\sw	Session.vim	/^inoremap <buffer> <silent> \\sw :call C_InsertTemplate("statements.while")$/;"	m
+\sw	Session.vim	/^noremap <buffer> <silent> \\sw :call C_InsertTemplate("statements.while")$/;"	m
+\swh	Session.vim	/^inoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block")$/;"	m
+\swh	Session.vim	/^nnoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block")$/;"	m
+\swh	Session.vim	/^onoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block")$/;"	m
+\swh	Session.vim	/^vnoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block", "v")$/;"	m
+\s{	Session.vim	/^inoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block")$/;"	m
+\s{	Session.vim	/^nnoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block")$/;"	m
+\s{	Session.vim	/^onoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block")$/;"	m
+\s{	Session.vim	/^vnoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block", "v")$/;"	m
+]%	Session.vim	/^vmap ]% ]%m'gv``$/;"	m
+_ANSI_STDARG_H_	include/stdarg.h	32;"	d
+_BSD_VA_LIST	include/stdarg.h	67;"	d
+_CALL_CURSOR	idt.c	230;"	d	file:
+_GDT_C_	gdt.c	2;"	d	file:
+_HD_H_	include/hd.h	2;"	d
+_IDT_C_	idt.c	2;"	d	file:
+_KLIBC_C_	klibc.c	2;"	d	file:
+_KLIBC_H_	include/klibc.h	2;"	d
+_ORANGES_KEYBOARD_H_	include/keyboard.h	9;"	d
+_ORANGES_KEYMAP_H_	include/keymap.h	14;"	d
+_PAGE_H_	include/page.h	19;"	d
+_SCHED_H_	include/sched.h	20;"	d
+_SEMAPHORE_H_	semaphore.h	19;"	d
+_STDARG_H	include/stdarg.h	31;"	d
+_TIME_H_	include/time.h	19;"	d
+_TYPE_H_	include/type.h	19;"	d
+_VA_LIST	include/stdarg.h	111;"	d
+_VA_LIST	include/stdarg.h	63;"	d
+_VA_LIST	include/stdarg.h	79;"	d
+_VA_LIST_	include/stdarg.h	108;"	d
+_VA_LIST_	include/stdarg.h	76;"	d
+_VA_LIST_DEFINED	include/stdarg.h	114;"	d
+_VA_LIST_T_H	include/stdarg.h	117;"	d
+__CODE_SEG_DESC	include/sched.h	104;"	d
+__DATA_SEG_DESC	include/sched.h	116;"	d
+__GNUC_VA_LIST	include/stdarg.h	39;"	d
+__LDT	include/sched.h	202;"	d
+__MM_H_	page.c	2;"	d	file:
+__TASK0_LDT_SEG_DESC	include/sched.h	140;"	d
+__TSS	include/sched.h	201;"	d
+__VA_LIST	include/stdarg.h	84;"	d
+__VIDEO_SEG_DESC	include/sched.h	128;"	d
+__gnuc_va_list	include/stdarg.h	/^typedef __builtin_va_list __gnuc_va_list;$/;"	t
+__need___va_list	include/stdarg.h	34;"	d
+__set_desc	include/sched.h	68;"	d
+__set_gate	include/sched.h	55;"	d
+__startup_process	include/sched.h	215;"	d
+__va_copy	include/stdarg.h	53;"	d
+__va_list__	include/stdarg.h	120;"	d
+_debug	include/klibc.h	12;"	d
+_start	kernel.asm	/^_start:$/;"	l
+_tick	idt.c	/^unsigned long long int _tick=0;$/;"	v
+a%	Session.vim	/^vmap a% [%v]%$/;"	m
+alt_flag	shell.c	28;"	d	file:
+and	kernel.asm	/^and byte [edi],0xfd$/;"	l
+and	kernel.asm	/^and dword [esp],0xffffbfff$/;"	l
+asm_align_check	int.asm	/^asm_align_check:$/;"	l
+asm_breakpoint	int.asm	/^asm_breakpoint:$/;"	l
+asm_cop	int.asm	/^asm_cop:$/;"	l
+asm_debug	int.asm	/^asm_debug:$/;"	l
+asm_div_error	int.asm	/^asm_div_error:$/;"	l
+asm_doublefault	int.asm	/^asm_doublefault:$/;"	l
+asm_files	makefile	/^asm_files= kernel.asm$/;"	m
+asm_fpu_error	int.asm	/^asm_fpu_error:$/;"	l
+asm_general_handler	int.asm	/^asm_general_handler:$/;"	l
+asm_general_protect	int.asm	/^asm_general_protect:$/;"	l
+asm_int_hd	int.asm	/^asm_int_hd:$/;"	l
+asm_int_keyboard	int.asm	/^asm_int_keyboard:$/;"	l
+asm_int_timer	int.asm	/^asm_int_timer:$/;"	l
+asm_machine_check	int.asm	/^asm_machine_check:$/;"	l
+asm_mon	int.asm	/^asm_mon:$/;"	l
+asm_nm	int.asm	/^asm_nm:$/;"	l
+asm_objects	makefile	/^asm_objects = $(addsuffix .o,$(basename $(asm_files)))$/;"	m
+asm_overbound	int.asm	/^asm_overbound:$/;"	l
+asm_overflow	int.asm	/^asm_overflow:$/;"	l
+asm_page_fault	int.asm	/^asm_page_fault:$/;"	l
+asm_reserve	int.asm	/^asm_reserve:$/;"	l
+asm_seg_fault	int.asm	/^asm_seg_fault:$/;"	l
+asm_simd_fault	int.asm	/^asm_simd_fault:$/;"	l
+asm_stack_fault	int.asm	/^asm_stack_fault:$/;"	l
+asm_sys_call	int.asm	/^asm_sys_call:$/;"	l
+asm_tss	int.asm	/^asm_tss:$/;"	l
+asm_undefine	int.asm	/^asm_undefine:$/;"	l
+attr_h	include/sched.h	/^	u16 attr_h:4;$/;"	m	struct:descriptor
+base_h	include/sched.h	/^	u16 base_h:8;$/;"	m	struct:descriptor
+base_l	include/sched.h	/^	u16 base_l;$/;"	m	struct:descriptor
+base_m	include/sched.h	/^	u16 base_m:8;$/;"	m	struct:descriptor
+bcd_to_bin	include/time.h	28;"	d
+bcd_to_bin	time.c	10;"	d	file:
+buf	include/keyboard.h	/^	char buf[1024];$/;"	m	struct:keyboard_buf
+buf	time.c	/^char buf[1024];$/;"	v
+c_files	makefile	/^c_files= idt.c kernel_main.c gdt.c page.c klibc.c time.c sched.c hd.c keyboard.c shell.c$/;"	m
+c_objects	makefile	/^c_objects = $(addsuffix .o,$(basename $(c_files)))$/;"	m
+call	int.asm	/^call do_align_check$/;"	l
+call	int.asm	/^call do_breakpoint$/;"	l
+call	int.asm	/^call do_cop$/;"	l
+call	int.asm	/^call do_debug$/;"	l
+call	int.asm	/^call do_div_error$/;"	l
+call	int.asm	/^call do_doublefault$/;"	l
+call	int.asm	/^call do_fpu_error$/;"	l
+call	int.asm	/^call do_general_protect$/;"	l
+call	int.asm	/^call do_int_hd$/;"	l
+call	int.asm	/^call do_int_keyboard$/;"	l
+call	int.asm	/^call do_int_timer$/;"	l
+call	int.asm	/^call do_machine_check$/;"	l
+call	int.asm	/^call do_nm$/;"	l
+call	int.asm	/^call do_overbound$/;"	l
+call	int.asm	/^call do_overflow$/;"	l
+call	int.asm	/^call do_page_fault$/;"	l
+call	int.asm	/^call do_seg_fault$/;"	l
+call	int.asm	/^call do_simd_fault$/;"	l
+call	int.asm	/^call do_stack_fault$/;"	l
+call	int.asm	/^call do_tss$/;"	l
+call	int.asm	/^call do_undefine$/;"	l
+call	int.asm	/^call sys_call$/;"	l
+call	kernel.asm	/^call kernel_main$/;"	l
+cap_flag	shell.c	29;"	d	file:
+cli	include/sched.h	207;"	d
+cli	int.asm	/^cli$/;"	l
+color	shell.c	/^unsigned short int color=0x0900;$/;"	v
+command	hd.c	/^	u8 command;$/;"	m	struct:hd_request	file:
+count	hd.c	/^	u32 count;$/;"	m	struct:hd_request	file:
+count	include/keyboard.h	/^	int count;$/;"	m	struct:keyboard_buf
+count	semaphore.h	/^	unsigned int count;$/;"	m	struct:semaphore
+cr3	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+cs	include/sched.h	/^	u32 es,cs,ss,ds,fs,gs,ldt,io_base;$/;"	m	struct:tss
+ctrl_flag	shell.c	26;"	d	file:
+current	kernel.asm	/^current: dd 0$/;"	d
+db	int.asm	/^db 0x0$/;"	l
+dd	kernel.asm	/^dd 0$/;"	l
+dd	kernel.asm	/^dd 0,0,0,0$/;"	l
+dd	kernel.asm	/^dd 0,0,0,0,0$/;"	l
+dd	kernel.asm	/^dd 0,0,0,0,0x1fe0000$/;"	l
+dd	kernel.asm	/^dd 0x17,0x0f,0x17,0x17,0x17,0x18$/;"	l
+dd	kernel.asm	/^dd 0x20,0x8000000$/;"	l
+dd	kernel.asm	/^dd 0x30,0x8000000$/;"	l
+dd	kernel.asm	/^dd Task1,0x200$/;"	l
+dd	kernel.asm	/^dd task0_kernel_stack,0x10$/;"	l
+dd	kernel.asm	/^dd task1_kernel_stack,0x10$/;"	l
+dd	kernel.asm	/^dd task1_user_stack,0,0,0$/;"	l
+descriptor	include/sched.h	/^ struct descriptor{$/;"	s
+dev	hd.c	/^	int dev;$/;"	m	struct:hd_request	file:
+device	hd.c	/^	u8 device;$/;"	m	struct:hd_request	file:
+disable_irq	include/klibc.h	54;"	d
+div	include/time.h	44;"	d
+do_align_check	idt.c	/^void do_align_check (unsigned int error_code)$/;"	f
+do_breakpoint	idt.c	/^void do_breakpoint (unsigned int error_code)$/;"	f
+do_cop	idt.c	/^void do_cop (unsigned int error_code)$/;"	f
+do_debug	idt.c	/^void do_debug (unsigned int error_code)$/;"	f
+do_div_error	idt.c	/^void do_div_error(unsigned int error_code)$/;"	f
+do_doublefault	idt.c	/^void do_doublefault (unsigned int error_code)$/;"	f
+do_fpu_error	idt.c	/^void do_fpu_error (unsigned int error_code)$/;"	f
+do_general_protect	idt.c	/^void do_general_protect (unsigned int error_code)$/;"	f
+do_hd	hd.c	/^	void (*do_hd)();$/;"	m	struct:hd_request	file:
+do_int_hd	idt.c	/^void do_int_hd (unsigned int error_code)$/;"	f
+do_int_keyboard	keyboard.c	/^void do_int_keyboard(unsigned int error_code)$/;"	f
+do_int_timer	idt.c	/^void do_int_timer (unsigned int error_code)$/;"	f
+do_machine_check	idt.c	/^void do_machine_check (unsigned int error_code)$/;"	f
+do_nm	idt.c	/^void do_nm (unsigned int error_code)$/;"	f
+do_nom	idt.c	/^void do_nom(){}$/;"	f
+do_overbound	idt.c	/^void do_overbound (unsigned int error_code)$/;"	f
+do_overflow	idt.c	/^void do_overflow (unsigned int error_code)$/;"	f
+do_page_fault	page.c	/^void do_page_fault(unsigned int error_code)$/;"	f
+do_reserve	idt.c	/^void do_reserve(){}$/;"	f
+do_seg_fault	idt.c	/^void do_seg_fault (unsigned int error_code)$/;"	f
+do_simd_fault	idt.c	/^void do_simd_fault (unsigned int error_code)$/;"	f
+do_stack_fault	idt.c	/^void do_stack_fault (unsigned int error_code)$/;"	f
+do_tss	idt.c	/^void do_tss (unsigned int error_code)$/;"	f
+do_undefine	idt.c	/^void do_undefine (unsigned int error_code)$/;"	f
+down	semaphore.c	/^void down(struct semaphore *sem)$/;"	f
+dpl	include/sched.h	/^	u16 dpl:2;$/;"	m	struct:descriptor
+dpl	include/sched.h	/^	u16 dpl:2;$/;"	m	struct:gate
+dq	kernel.asm	/^dq 0x0000000000000000$/;"	l
+dq	kernel.asm	/^dq 0x00c0f200000003ff$/;"	l
+dq	kernel.asm	/^dq 0x00c0fa00000003ff$/;"	l
+ds	include/sched.h	/^	u32 es,cs,ss,ds,fs,gs,ldt,io_base;$/;"	m	struct:tss
+eax	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+ebp	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+ebx	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+ecx	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+edi	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+edx	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+eflags	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+eip	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+enable_irq	include/klibc.h	45;"	d
+enable_tss	kernel.asm	/^enable_tss:$/;"	l
+enter_flag	shell.c	30;"	d	file:
+error_code	int.asm	/^error_code:$/;"	l
+es	include/sched.h	/^	u32 es,cs,ss,ds,fs,gs,ldt,io_base;$/;"	m	struct:tss
+esi	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+esp	include/sched.h	/^	u32 cr3,eip,eflags,eax,ecx,edx,ebx,esp,ebp,esi,edi;$/;"	m	struct:tss
+esp0	include/sched.h	/^	u32 esp0,ss0,esp1,ss1,esp2,ss2;$/;"	m	struct:tss
+esp1	include/sched.h	/^	u32 esp0,ss0,esp1,ss1,esp2,ss2;$/;"	m	struct:tss
+esp2	include/sched.h	/^	u32 esp0,ss0,esp1,ss1,esp2,ss2;$/;"	m	struct:tss
+ex_tss	include/sched.h	/^	u32 ex_tss;$/;"	m	struct:tss
+features	hd.c	/^	u8 features;$/;"	m	struct:hd_request	file:
+fix_cursor	shell.c	31;"	d	file:
+fs	include/sched.h	/^	u32 es,cs,ss,ds,fs,gs,ldt,io_base;$/;"	m	struct:tss
+gate	include/sched.h	/^struct gate{$/;"	s
+gdt	kernel.asm	/^gdt:$/;"	l
+gdt_len	kernel.asm	/^gdt_len equ $-gdt$/;"	d
+gdt_ptr	kernel.asm	/^gdt_ptr dw gdt_len-1$/;"	d
+get_pde_by_vir	page.c	/^int *get_pde_by_vir(unsigned int addr)$/;"	f
+global	kernel.asm	/^global _start$/;"	l
+gs	include/sched.h	/^	u32 es,cs,ss,ds,fs,gs,ldt,io_base;$/;"	m	struct:tss
+gx	Session.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+handlers	idt.c	/^unsigned int handlers[255]={$/;"	v
+hardisk	makefile	/^hardisk=hd.img$/;"	m
+hd_buf	idt.c	/^char hd_buf[1024];$/;"	v
+hd_out	hd.c	/^int hd_out(u32 features,u32 device,u32 count,u32 lba,u32 cmd)$/;"	f
+hd_request	hd.c	/^struct hd_request{$/;"	s	file:
+hd_request	hd.c	/^}hd_request[0xf];$/;"	v	typeref:struct:hd_request
+hd_rq_cur	hd.c	/^struct hd_request *hd_rq_cur;$/;"	v	typeref:struct:hd_request
+head	include/keyboard.h	/^	int tail,head;$/;"	m	struct:keyboard_buf
+hint	shell.c	/^char hint[]="cui@os:";$/;"	v
+idt	kernel.asm	/^idt:$/;"	l
+idt_len	kernel.asm	/^idt_len equ $-idt$/;"	d
+idt_ptr	kernel.asm	/^idt_ptr dw idt_len$/;"	d
+in_byte	include/klibc.h	19;"	d
+init_gdt	gdt.c	/^void init_gdt()$/;"	f
+init_hd	hd.c	/^void init_hd()$/;"	f
+init_idt	idt.c	/^void init_idt()$/;"	f
+init_page	page.c	/^void init_page()$/;"	f
+init_shell	shell.c	/^void init_shell()$/;"	f
+init_time	time.c	/^void init_time()$/;"	f
+io_base	include/sched.h	/^	u32 es,cs,ss,ds,fs,gs,ldt,io_base;$/;"	m	struct:tss
+iret	int.asm	/^iret$/;"	l
+iretd	int.asm	/^iretd$/;"	l
+iretd	kernel.asm	/^iretd$/;"	l
+is_lear	include/time.h	55;"	d
+is_lear	time.c	65;"	d	file:
+itoa	klibc.c	/^char *itoa(char* buffer,unsigned long int n)$/;"	f
+itoah	klibc.c	/^char *itoah(char *buffer,unsigned long int n,int len)$/;"	f
+kernel	makefile	/^kernel = kernel$/;"	m
+kernel_main	kernel_main.c	/^void kernel_main()$/;"	f
+kernel_stack	include/sched.h	/^u8 kernel_stack[STACK_SIZE];$/;"	m	struct:task_struct
+kernel_stack	kernel.asm	/^kernel_stack:$/;"	l
+key_flags	shell.c	/^unsigned int key_flags=enter_flag;$/;"	v
+keyboard_buf	include/keyboard.h	/^struct keyboard_buf{$/;"	s
+keyboard_buf	keyboard.c	/^struct keyboard_buf  keyboard_buf={{'\\0',},0,0,0};$/;"	v	typeref:struct:keyboard_buf
+keymap	include/keymap.h	/^u32 keymap[NR_SCAN_CODES * MAP_COLS] = {$/;"	v
+kfree_page	page.c	/^void kfree_page(int ph_pg_addr)$/;"	f
+kget_free_page	page.c	/^unsigned int kget_free_page()$/;"	f
+lba	hd.c	/^	u32 lba;$/;"	m	struct:hd_request	file:
+ldt	include/sched.h	/^	u32 es,cs,ss,ds,fs,gs,ldt,io_base;$/;"	m	struct:tss
+ldt	include/sched.h	/^struct descriptor ldt[4];$/;"	m	struct:task_struct	typeref:struct:task_struct::descriptor
+ldt0	kernel.asm	/^ldt0:$/;"	l
+ldt0_seg	kernel.asm	/^ldt0_seg:$/;"	l
+ldt1	kernel.asm	/^ldt1:$/;"	l
+ldt1_seg	kernel.asm	/^ldt1_seg:$/;"	l
+ldt_selector	include/sched.h	/^u16 ldt_selector;$/;"	m	struct:task_struct
+lea	kernel.asm	/^lea edi, [edi+eax+5]$/;"	l
+lgdt	include/sched.h	33;"	d
+lidt	include/sched.h	35;"	d
+limit_h	include/sched.h	/^	u16 limit_h:4;$/;"	m	struct:descriptor
+limit_l	include/sched.h	/^  u16 limit_l;$/;"	m	struct:descriptor
+lk	Session.vim	/^nmap lk :LookupFile$/;"	m
+lldt	include/sched.h	37;"	d
+lldt	kernel.asm	/^lldt ax$/;"	l
+lsl	include/sched.h	42;"	d
+ltr	include/sched.h	39;"	d
+ltr	kernel.asm	/^ltr ax$/;"	l
+mk_time	time.c	/^void mk_time(struct tm *tm)$/;"	f
+mm	Session.vim	/^map <silent> mm <Plug>Vm_toggle_sign $/;"	m
+mm_map	include/page.h	/^unsigned short int mm_map[PAGE_FRAMES];$/;"	v
+mm_map	page.c	/^unsigned short int mm_map[PAGE_FRAMES]={0,};$/;"	v
+mons	time.c	/^int mons[12]={$/;"	v
+mov	int.asm	/^mov al,0x20$/;"	l
+mov	int.asm	/^mov ds,ax$/;"	l
+mov	int.asm	/^mov eax,0x10$/;"	l
+mov	kernel.asm	/^mov ax,0x10$/;"	l
+mov	kernel.asm	/^mov ax,0x18$/;"	l
+mov	kernel.asm	/^mov ax,0x20$/;"	l
+mov	kernel.asm	/^mov ax,0x28$/;"	l
+mov	kernel.asm	/^mov ds,ax$/;"	l
+mov	kernel.asm	/^mov eax,0x18$/;"	l
+mov	kernel.asm	/^mov eax,kernel_stack$/;"	l
+mov	kernel.asm	/^mov edi, [gdt_ptr+2]$/;"	l
+mov	kernel.asm	/^mov es,ax$/;"	l
+mov	kernel.asm	/^mov esp,eax$/;"	l
+mov	kernel.asm	/^mov gs,ax$/;"	l
+mov	kernel.asm	/^mov ss,ax$/;"	l
+move_to_top	shell.c	/^void move_to_top(int row)$/;"	f
+multiboot_header	kernel.asm	/^multiboot_header:$/;"	l
+n_gdt	include/sched.h	/^u32 n_gdt;$/;"	m	struct:task_struct
+next	semaphore.h	/^	struct wait_list *next;$/;"	m	struct:wait_item	typeref:struct:wait_item::wait_list
+next_line	idt.c	102;"	d	file:
+objects	makefile	/^objects:= $(asm_objects) $(c_objects)$/;"	m
+offset_h	include/sched.h	/^	u16 offset_h;$/;"	m	struct:gate
+offset_l	include/sched.h	/^	u16 offset_l;$/;"	m	struct:gate
+out	int.asm	/^out 0x20,al$/;"	l
+out_byte	include/klibc.h	31;"	d
+output_pos	shell.c	/^unsigned int output_pos=0;$/;"	v
+p	include/sched.h	/^	u16 p:1;$/;"	m	struct:descriptor
+p	include/sched.h	/^	u16 p:1;$/;"	m	struct:gate
+p_count	include/sched.h	/^	u16 p_count:5;$/;"	m	struct:gate
+p_int	idt.c	/^int p_int=0;$/;"	v
+p_out	keyboard.c	/^int p_out=0;$/;"	v
+panic	klibc.c	/^void panic(char * str)$/;"	f
+pde	page.c	/^u32 *pde;$/;"	v
+pid	include/sched.h	/^u32 pid;$/;"	m	struct:task_struct
+pop	int.asm	/^pop dword [error_code]$/;"	l
+pop	int.asm	/^pop dword ds$/;"	l
+pop	int.asm	/^pop eax$/;"	l
+pop	int.asm	/^pop ebx$/;"	l
+pop	int.asm	/^pop ecx$/;"	l
+pop	int.asm	/^pop edx$/;"	l
+pop	int.asm	/^pop es$/;"	l
+pop	int.asm	/^pop fs$/;"	l
+pop	int.asm	/^pop gs$/;"	l
+popad	int.asm	/^popad$/;"	l
+popfd	kernel.asm	/^popfd$/;"	l
+port_read	include/hd.h	3;"	d
+port_write	include/hd.h	5;"	d
+pos	kernel_main.c	/^unsigned int pos=S;$/;"	v
+pos_page_fault	page.c	/^int pos_page_fault=40;$/;"	v
+pre	semaphore.h	/^	struct wait_list *pre;$/;"	m	struct:wait_item	typeref:struct:wait_item::wait_list
+print_intr	idt.c	10;"	d	file:
+printf	klibc.c	/^int printf(char *fmt,...)$/;"	f
+priority	include/sched.h	/^u32 priority;$/;"	m	struct:task_struct
+process	include/sched.h	/^struct task_struct process[MAX_PROC];$/;"	v	typeref:struct:task_struct
+pte	page.c	/^u32 *pte;$/;"	v
+pu16	include/sched.h	31;"	d
+pu32	include/sched.h	32;"	d
+pu8	include/sched.h	30;"	d
+push	int.asm	/^push dword [error_code]$/;"	l
+push	int.asm	/^push dword ds$/;"	l
+push	int.asm	/^push eax$/;"	l
+push	int.asm	/^push ebx$/;"	l
+push	int.asm	/^push ecx$/;"	l
+push	int.asm	/^push edx$/;"	l
+push	int.asm	/^push es$/;"	l
+push	int.asm	/^push fs$/;"	l
+push	int.asm	/^push gs$/;"	l
+push	kernel.asm	/^push dword 0x17$/;"	l
+push	kernel.asm	/^push dword 0xf$/;"	l
+push	kernel.asm	/^push dword Task0$/;"	l
+push	kernel.asm	/^push dword task0_user_stack$/;"	l
+pushad	int.asm	/^pushad$/;"	l
+pushfd	kernel.asm	/^pushfd $/;"	l
+pushfd	kernel.asm	/^pushfd$/;"	l
+put_page	page.c	/^void put_page(unsigned int ph_pg_addr,unsigned int lnr_pg_addr)$/;"	f
+read_cmos	include/time.h	24;"	d
+read_cmos	kernel_main.c	9;"	d	file:
+read_cmos	time.c	6;"	d	file:
+read_hd	include/hd.h	30;"	d
+read_sector	include/hd.h	7;"	d
+reboot	kernel_main.c	/^void reboot()$/;"	f
+rem	include/time.h	49;"	d
+res	include/sched.h	/^	u16 res:3;$/;"	m	struct:gate
+ret	kernel.asm	/^ret$/;"	l
+s	include/sched.h	/^	u16 s:1;$/;"	m	struct:descriptor
+s	include/sched.h	/^	u16 s:1;$/;"	m	struct:gate
+s:cpo_save	Session.vim	/^let s:cpo_save=&cpo$/;"	v
+s:l	Session.vim	/^let s:l = 110 - ((18 * winheight(0) + 10) \/ 21)$/;"	v
+s:l	Session.vim	/^let s:l = 19 - ((8 * winheight(0) + 10) \/ 21)$/;"	v
+s:so_save	Session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	Session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	Session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+schedule	sched.c	/^void schedule()$/;"	f
+scr_loc	kernel.asm	/^scr_loc: dd 0$/;"	d
+screen	keyboard.c	/^unsigned int *screen=0xb8000;$/;"	v
+selector	include/sched.h	/^  u16 selector;$/;"	m	struct:gate
+sem_res	semaphore.c	/^extern struct semaphore sem_res[1024*2]={{0,0},};$/;"	v	typeref:struct:semaphore
+semaphore	semaphore.h	/^struct semaphore{$/;"	s
+send_hd_cmd	include/hd.h	17;"	d
+set_desc_base	include/sched.h	83;"	d
+set_dpl	include/sched.h	54;"	d
+set_ebp	include/sched.h	52;"	d
+set_esp	include/sched.h	51;"	d
+set_intr_gate	include/sched.h	63;"	d
+set_irq_handler	include/sched.h	65;"	d
+set_ldt_seg	include/sched.h	81;"	d
+set_page_dir	include/sched.h	41;"	d
+set_trap_gate	include/sched.h	64;"	d
+set_tss_seg	include/sched.h	82;"	d
+sgdt	include/sched.h	34;"	d
+shift_flag	shell.c	27;"	d	file:
+show_ch	include/klibc.h	64;"	d
+show_str	include/klibc.h	68;"	d
+sidt	include/sched.h	36;"	d
+signal	include/sched.h	/^u32 signal;$/;"	m	struct:task_struct
+sldt	include/sched.h	38;"	d
+slice_left	include/sched.h	/^u32 slice_left;$/;"	m	struct:task_struct
+slice_used	include/sched.h	/^u32 slice_used;$/;"	m	struct:task_struct
+sprintf	klibc.c	/^int sprintf(char *str,char *fmt,...)$/;"	f
+ss	include/sched.h	/^	u32 es,cs,ss,ds,fs,gs,ldt,io_base;$/;"	m	struct:tss
+ss0	include/sched.h	/^	u32 esp0,ss0,esp1,ss1,esp2,ss2;$/;"	m	struct:tss
+ss1	include/sched.h	/^	u32 esp0,ss0,esp1,ss1,esp2,ss2;$/;"	m	struct:tss
+ss2	include/sched.h	/^	u32 esp0,ss0,esp1,ss1,esp2,ss2;$/;"	m	struct:tss
+stack_0	kernel.asm	/^stack_0:$/;"	l
+stack_1	kernel.asm	/^stack_1:$/;"	l
+startup_time	time.c	/^unsigned long startup_time;$/;"	v
+state	include/sched.h	/^u32 state;$/;"	m	struct:task_struct
+sti	include/sched.h	206;"	d
+sti	int.asm	/^sti$/;"	l
+str	include/sched.h	40;"	d
+strcmp	klibc.c	/^int strcmp(char *str1,char * str2,int n)$/;"	f
+strcpy	klibc.c	/^int strcpy(char *dst,char *src,int size)$/;"	f
+switch_to	include/sched.h	208;"	d
+switch_to_user	include/sched.h	43;"	d
+sys_call	idt.c	/^void sys_call(int eax,int ebx,int ecx,int edx)$/;"	f
+tail	include/keyboard.h	/^	int tail,head;$/;"	m	struct:keyboard_buf
+task0_kernel_stack	kernel.asm	/^task0_kernel_stack:$/;"	l
+task0_user_stack	kernel.asm	/^task0_user_stack:$/;"	l
+task1_kernel_stack	kernel.asm	/^task1_kernel_stack:$/;"	l
+task1_user_stack	kernel.asm	/^task1_user_stack:$/;"	l
+task_shell	shell.c	/^void task_shell()$/;"	f
+task_struct	include/sched.h	/^struct task_struct {$/;"	s
+time	include/time.h	/^struct tm time;$/;"	v	typeref:struct:tm
+time	time.c	/^	struct tm time;$/;"	v	typeref:struct:tm
+times	kernel.asm	/^times 1024 dd 0$/;"	l
+times	kernel.asm	/^times 128 dd 0$/;"	l
+times	kernel.asm	/^times 250 dq 0x0$/;"	l
+times	kernel.asm	/^times 256 dq 0x00008e0000080000$/;"	l
+tm	include/time.h	/^struct tm {$/;"	s
+tm	time.c	/^struct tm {$/;"	s	file:
+tm_hour	include/time.h	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm
+tm_hour	time.c	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm	file:
+tm_mday	include/time.h	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm
+tm_mday	time.c	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm	file:
+tm_min	include/time.h	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm
+tm_min	time.c	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm	file:
+tm_mon	include/time.h	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm
+tm_mon	time.c	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm	file:
+tm_sec	include/time.h	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm
+tm_sec	time.c	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm	file:
+tm_to_str	include/time.h	29;"	d
+tm_to_str	time.c	11;"	d	file:
+tm_year	include/time.h	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm
+tm_year	time.c	/^	int tm_sec,tm_min,tm_hour,tm_mday,tm_mon,tm_year;$/;"	m	struct:tm	file:
+tss	include/sched.h	/^struct tss tss;$/;"	m	struct:task_struct	typeref:struct:task_struct::tss
+tss	include/sched.h	/^struct tss{$/;"	s
+tss0	kernel.asm	/^tss0:$/;"	l
+tss0_seg	kernel.asm	/^tss0_seg:$/;"	l
+tss1	kernel.asm	/^tss1:$/;"	l
+tss1_seg	kernel.asm	/^tss1_seg:$/;"	l
+tss_selector	include/sched.h	/^u16 tss_selector;$/;"	m	struct:task_struct
+type	include/sched.h	/^	u16 type:4;$/;"	m	struct:descriptor
+type	include/sched.h	/^	u16 type:4;$/;"	m	struct:gate
+u16	include/klibc.h	7;"	d
+u16	include/sched.h	25;"	d
+u16	include/type.h	24;"	d
+u32	include/klibc.h	10;"	d
+u32	include/page.h	28;"	d
+u32	include/sched.h	28;"	d
+u32	include/type.h	27;"	d
+u32	keyboard.c	20;"	d	file:
+u32	page.c	13;"	d	file:
+u8	include/klibc.h	4;"	d
+u8	include/sched.h	22;"	d
+u8	include/type.h	21;"	d
+u_pde	page.c	/^u32 *u_pde;$/;"	v
+u_pte	page.c	/^u32 *u_pte;$/;"	v
+user_stack	include/sched.h	/^u8 user_stack[STACK_SIZE];$/;"	m	struct:task_struct
+va_arg	include/stdarg.h	49;"	d
+va_copy	include/stdarg.h	51;"	d
+va_end	include/stdarg.h	48;"	d
+va_list	include/stdarg.h	/^typedef __gnuc_va_list va_list;$/;"	t
+va_start	include/stdarg.h	47;"	d
+vsprintf	klibc.c	/^int vsprintf(char *str,char *fmt,va_list ap)$/;"	f
+wait_item	semaphore.h	/^struct wait_item {$/;"	s
+wait_item_res	semaphore.c	/^extern struct wait_item wait_item_res[1024*2]={{0,0,0},};$/;"	v	typeref:struct:wait_item
+wait_list	semaphore.h	/^	struct wait_item *wait_list;$/;"	m	struct:semaphore	typeref:struct:semaphore::wait_item
+wait_time	klibc.c	/^inline void wait_time(int sec)$/;"	f
+waitting	semaphore.h	/^	struct task_struct *waitting;$/;"	m	struct:wait_item	typeref:struct:wait_item::task_struct
+wm	Session.vim	/^nmap wm :WMToggle$/;"	m
+write_hd	include/hd.h	31;"	d
+write_sector	include/hd.h	8;"	d
+zt	Session.vim	/^normal! zt$/;"	m
+{	Session.vim	/^inoremap <buffer> {$/;"	m
+{	Session.vim	/^vnoremap <buffer> {$/;"	m
+­	Session.vim	/^inoremap <buffer> <silent> ­ =EchoFuncP()$/;"	m
+½	Session.vim	/^inoremap <buffer> <silent> ½ =EchoFuncN()$/;"	m
