@@ -1,0 +1,25 @@
+相关资料:
+首先是x86方面的:
+    intel的software developer's manual是最详细的，也就是最无聊的。
+		<<linux内核完全剖析>>的第四章。
+		如果只是想学习os方面的知识，重点应该方在保护模式，中断（异常)机制,
+		分页机制。
+		本目录下有nasm的中手册。
+os方面的资料:
+    传说中的the Operating System resouce center	http://www.nondot.org/sabre/os/articles
+		wiki.osdev.org(这网站也很好，貌似不能上了)
+    oldlinux.org/index_cn.html(赵炯博士开的站，上面有相当多的资料哦）
+各种书:
+    oranges一个操作系统的实现(作者:于渊，高德纳的taocp查错任务赏金两次)
+		linux内核完全剖析(赵炯，博士，不解释）
+    一个操作系统的设计与实现(讲minix的设计与实现，作者:特纳姆,另有两大神作《现代操作系统》、《分布式操作系统》)
+		 上面这三本比较适合想实践的人看。
+     操作系统概念、操作系统精髓与设计原理(本人上课用的是这本，木用什么感觉)
+
+用到的各种工具：
+    bochs(跨平台的x86模拟器，官网bochs.sourceforge.net)
+		xxd(十六进制查看器)
+		fdisk(请看man手册)
+		gcc工作集，bintilus,make,vim
+
+    

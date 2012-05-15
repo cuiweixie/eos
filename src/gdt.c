@@ -10,7 +10,6 @@ seg_desc_stack: dd  0x0000000f,0x00809201
 */
 extern void Task0();
 extern void Task1();
-extern void task_shell();
 void init_gdt()
 {
  lgdt(gdt_ptr);
@@ -35,8 +34,6 @@ void init_gdt()
  process[1].tss.esp0=process[1].kernel_stack+STACK_SIZE;
  set_ldt_seg(6,process[1].ldt);
  set_tss_seg(7,&process[1].tss);
-
-    __startup_process(8,2,2,task_shell);
  lldt(__LDT(0));
  ltr(__TSS(0));
  asm("movw %%ax,%%gs"::"a"(0x18));

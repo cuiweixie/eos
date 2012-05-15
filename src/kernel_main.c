@@ -16,6 +16,7 @@ void kernel_main()
 	init_gdt();
 	init_idt();
 	init_page();
+	init_shell();
 	init_time();
 	out_byte(0x21,0x00);
 	out_byte(0xa1,0x00);

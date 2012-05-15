@@ -1,12 +1,11 @@
-<<<<<<< HEAD
 eos(experiment operating system)
 unzip bochs.tar.gz dis.tar.gz
-    tar -jvf disk.tar.gz
-    tar -jvf bochs.tar.gz
-		sudo mount -o loop hd.img ./hd
-		cd src;
-		make dep;
-		make all;
-		cd src;
-		./bochs.sh;
+tar -jvf disk.tar.gz
+tar -jvf bochs.tar.gz
+sudo mount -o loop hd.img ./hd
+cd src;
+sudo ./wd.sh;
+make dep;
+make all;
+./bochs.sh;
 
