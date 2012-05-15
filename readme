@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 eos(experiment operating system)
 unzip bochs.tar.gz dis.tar.gz
     tar -jvf disk.tar.gz
@@ -8,3 +9,4 @@ unzip bochs.tar.gz dis.tar.gz
 		make all;
 		cd src;
 		./bochs.sh;
+
