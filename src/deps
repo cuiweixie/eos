@@ -1,0 +1,26 @@
+idt.o: idt.c include/klibc.h include/sched.h include/asm_func.h \
+ include/time.h include/hd.h
+	gcc -I include/ -c -fno-stack-protector -fno-builtin -w -g  idt.c
+kernel_main.o: kernel_main.c include/klibc.h include/asm_func.h \
+ include/sched.h include/time.h include/hd.h include/page.h
+	gcc -I include/ -c -fno-stack-protector -fno-builtin -w -g  kernel_main.c
+gdt.o: gdt.c include/sched.h
+	gcc -I include/ -c -fno-stack-protector -fno-builtin -w -g  gdt.c
+page.o: page.c include/sched.h include/klibc.h
+	gcc -I include/ -c -fno-stack-protector -fno-builtin -w -g  page.c
+klibc.o: klibc.c include/klibc.h include/stdarg.h
+	gcc -I include/ -c -fno-stack-protector -fno-builtin -w -g  klibc.c
+time.o: time.c include/klibc.h
+	gcc -I include/ -c -fno-stack-protector -fno-builtin -w -g  time.c
+sched.o: sched.c include/sched.h
+	gcc -I include/ -c -fno-stack-protector -fno-builtin -w -g  sched.c
+hd.o: hd.c include/sched.h include/klibc.h include/hd.h
+	gcc -I include/ -c -fno-stack-protector -fno-builtin -w -g  hd.c
+keyboard.o: keyboard.c include/keyboard.h include/type.h include/klibc.h
+	gcc -I include/ -c -fno-stack-protector -fno-builtin -w -g  keyboard.c
+shell.o: shell.c include/keyboard.h include/type.h include/keymap.h \
+ include/klibc.h include/sched.h
+	gcc -I include/ -c -fno-stack-protector -fno-builtin -w -g  shell.c
+kernel.o: kernel.asm sym_asm_c.inc lib.inc int.asm
+
+	nasm -f elf kernel.asm

@@ -19,6 +19,6 @@
 
 set -o nounset                              # Treat unset variables as an error
 
-	sudo losetup -o 1048576 /dev/loop0  hd.img
-	sudo mount /dev/loop0 hd
+	sudo losetup -o 1048576 /dev/loop0  ../hd.img
+	sudo mount /dev/loop0 ../hd
 
